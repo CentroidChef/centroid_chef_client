@@ -6,6 +6,7 @@ a client machine will check-in with the Chef Server.
 Set the following in the attributes/default.rb file:
 
 default['chef_client']['interval'] = 300
+
 default['chef_client']['splay'] = 15
 
 interval is set to seconds (above it is set to 5 minutes)
