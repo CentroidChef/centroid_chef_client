@@ -4,7 +4,7 @@ maintainer_email 'kirt.martin@centroid.com'
 license 'All Rights Reserved'
 description 'Installs/Configures centroid_chef_client'
 long_description 'Installs/Configures centroid_chef_client'
-version '0.1.6'
+version '0.1.7'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 depends 'chef-client'
