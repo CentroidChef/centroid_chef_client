@@ -1,2 +1,2 @@
-default['chef_client']['interval'] = 300
-default['chef_client']['splay'] = 15
+default['chef_client']['interval'] = 120
+default['chef_client']['splay'] = 10
